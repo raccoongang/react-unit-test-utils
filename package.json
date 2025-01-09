@@ -1,6 +1,6 @@
 {
-  "name": "@edx/react-unit-test-utils",
-  "version": "1.0.0-semantically-released",
+  "name": "@raccoongang/react-unit-test-utils",
+  "version": "2.0.0-tokens.2",
   "description": "React toolkit for writing and testing react components",
   "main": "dist/index.js",
   "release": {
@@ -22,9 +22,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/openedx/react-unit-test-utils.git"
+    "url": "git+https://github.com/raccoongang/react-unit-test-utils.git"
   },
-  "homepage": "https://github.com/openedx/react-unit-test-utils#README",
+  "homepage": "https://github.com/raccoongang/react-unit-test-utils#README",
   "browserslist": [
     "extends @edx/browserslist-config"
   ],
@@ -43,9 +43,9 @@
   },
   "devDependencies": {
     "@edx/browserslist-config": "^1.1.1",
-    "@edx/frontend-platform": "7.0.1",
-    "@openedx/frontend-build": "13.0.27",
-    "@openedx/paragon": "22.0.0",
+    "@edx/frontend-platform": "npm:@raccoongang/frontend-platform@7.1.2-tokens.2",
+    "@openedx/frontend-build": "npm:@raccoongang/frontend-build@13.1.4-tokens.2",
+    "@openedx/paragon": "23.0.0",
     "axios": "^1.4.0",
     "es-check": "^2.3.0",
     "husky": "2.7.0",
@@ -56,9 +56,9 @@
     "semantic-release": "^19.0.3"
   },
   "peerDependencies": {
-    "@edx/frontend-platform": "^7.0.1",
-    "@openedx/frontend-build": "^13.0.27",
-    "@openedx/paragon": "^21.5.7 || ^22.0.0",
+    "@edx/frontend-platform": "^7.0.1 || ^7.1.2-tokens.1",
+    "@openedx/frontend-build": "^13.0.27 || ^13.1.4-tokens.1",
+    "@openedx/paragon": ">= ^21.5.7 < 24.0.0",
     "react": "^16.9.0 || ^17.0.0"
   }
 }
